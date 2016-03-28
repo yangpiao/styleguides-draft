@@ -86,6 +86,19 @@
   }
   ```
 
+- Do not put tag name before class or ID selector.
+  ```scss
+  // avoid
+  div.control-group {
+    // ...
+  }
+
+  // recommend
+  .control-group {
+    // ...
+  }
+  ```
+
 - Avoid using `!important`. Overwrite styles by specifying a selector with higher specificity.
 
 - When styling elements (tags), make sure the styles are general enough.
