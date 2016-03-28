@@ -1,5 +1,16 @@
 # JavaScript & Angular Style Guide
 
+## Contents
+
+1. [JavaScript](#javascript)
+2. [Angular](#angular)
+  1. [Modules](#modules)
+  2. [Controllers](#controllers)
+  3. [Services](#services)
+  4. [Directives](#directives)
+  5. [Filters](#filters)
+  6. [Miscellaneous](#miscellaneous)
+
 ## JavaScript
 
 - `jshint` covers most of common cases. Just run `grunt jshint:dev` if you don't want to run the whole build task.
@@ -31,3 +42,14 @@
   ```
 
 - Use ES5 features when possible. They're all supported by modern browsers. [ES5 compatibility table](http://kangax.github.io/compat-table/es5/).
+
+## Angular
+
+Based on Angular 1.2, the version we're using now.
+
+### Modules
+### Controllers
+### Services
+### Directives
+### Filters
+### Miscellaneous
