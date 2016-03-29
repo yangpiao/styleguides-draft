@@ -197,6 +197,8 @@ Based on Angular 1.2, the version we're using now.
 
 - Use `$window`, `$document`, `$timeout`, and `$interval` instead of `window`, `document`, `setTimeout`, and `setInterval`.
 
+- Do not use unresolved promises in templates (remember those `user.hasPermission()` in our templates?). Unwrapping promises still works in Angular 1.2 but is a deprecated feature. Resolve the promise in controllers.
+
 - If you have `Array#filter` in your code, consider creating an Angular filter for it.
 
 - Return promises for asynchronous functions instead of passing a callback function.
